@@ -183,69 +183,6 @@ nav {
 section {
     max-height: 500px;
 }
-
-/* .first{
-    color: white;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns:1fr 1fr;
-    justify-content: flex-start;
-    align-items:center ;
-    max-width: 70vw;
-    margin: auto;
-    gap: 10px;
-    margin-bottom: 0;
-    margin-top: 40px;
-    height: fit-content;
-    max-height: 70vh;
-}
-.first .head{
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: center;
-}
-.first img{
-    top: 72px;
-    left: 0px;
-    height: 27vw;
-    z-index: 10;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-
-.first video{
-    position: relative;
-    bottom: 208px;
-    left: 52px;
-    height: auto;
-    width: 80%;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-section.first > div{
- display: flex;
- flex-direction: column;
-}
-.first div>:first-child{
-    font-size: 42px;
-    display: flex;
-    justify-content: flex-start;
-    top: 10;
-    font-family: "Poppins", sans-serif;
-    position: relative;
-    font-weight: 800;
-    justify-content: center;
-    
-}
-.first div>:nth-child(2){
-    font-size: 24px;
-    margin-top: 20px;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-} */
 .second {
     display: grid;
     grid-template-rows: auto;
