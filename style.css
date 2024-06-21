@@ -183,6 +183,7 @@ nav {
 section {
     max-height: 500px;
 }
+
 .second {
     display: grid;
     grid-template-rows: auto;
@@ -206,9 +207,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
 }
-.first .img img{
+
+.first .img img {
     width: auto;
     height: 400px;
     z-index: 10;
@@ -216,6 +219,7 @@ section {
     bottom: 160px;
 
 }
+
 .first .img video {
     width: auto;
     height: auto;
@@ -235,7 +239,7 @@ section {
 
 .first .shead {
     font-size: 24px;
-    font-family: "Poppins", sans-serif;   
+    font-family: "Poppins", sans-serif;
     color: white;
     grid-column: 1;
     display: flex;
@@ -266,7 +270,8 @@ section {
     color: white;
 
 }
-.second .stbox{
+
+.second .stbox {
     height: 100px;
     width: 290px;
     border: 1px solid white;
@@ -278,7 +283,8 @@ section {
     display: flex;
     align-items: center;
 }
-.second .stbox img{
+
+.second .stbox img {
     height: 90px;
     width: auto;
     margin-left: 10px;
@@ -286,20 +292,23 @@ section {
     padding: 0 10px;
     display: flex;
 }
-.second .stbox div> span:nth-child(1){
+
+.second .stbox div>span:nth-child(1) {
     color: white;
     font-weight: 500;
     font-size: larger;
     font-family: "Poppins", sans-serif;
     display: flex;
 }
-.second .stbox div> :nth-child(2){
+
+.second .stbox div> :nth-child(2) {
     color: blue;
     font-size: large;
     font-family: "Poppins", sans-serif;
     display: flex;
 }
-.second .download img{
+
+.second .download img {
     height: 40px;
     width: auto;
     margin-left: 10px;
@@ -319,7 +328,7 @@ section {
     margin-top: 90px;
 }
 
-.third .text > :nth-child(1){
+.third .text> :nth-child(1) {
     margin-top: 100px;
     font-size: 45px;
     display: block;
@@ -328,25 +337,60 @@ section {
     color: white;
     margin-bottom: 20px;
 }
-.third .text > :nth-child(2){
+
+.third .text> :nth-child(2) {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: white;
-    text-align:start;
+    text-align: start;
 }
 
-.third .devices img{
+.third .devices img {
     position: relative;
     height: 350px;
     width: auto;
     z-index: 10;
 }
 
-.third .devices video{
+.third .devices video {
     position: relative;
     height: auto;
     width: 310px;
     bottom: 323px;
     right: -75px;
+}
+
+.fourth {
+    display: grid;
+    grid-template-rows: 175px;
+    grid-template-columns: 40% 60%;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+    height: 450px;
+    margin-top: 90px;
+}
+
+.fourth .kids img {
+    height: 60vh;
+    width: auto;
+}
+
+.fourth .text :nth-child(1) {
+    margin-top: 100px;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 850;
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.fourth .text :nth-child(2) {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: start;
 }
