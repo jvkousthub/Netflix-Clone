@@ -470,6 +470,43 @@ section {
     color: white;
     font-weight: bold;
     font-size: 25px;
-    margin-bottom: 80px;
-
+}
+footer{
+    padding:40px ;
+    margin-top: 30px;
+    max-width: 75vw;
+    color: rgb(196, 196, 196);
+    margin: auto;
+    align-items:  left;
+}
+footer a{
+    color: rgb(180, 178, 178);
+    font-family: "Poppins",sans-serif;
+}
+.outro{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 17.5vw 17.5vw 17.5vw 17.5vw;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    font-size: 14px;
+}
+.outro a, span{
+    font-family: "Poppins",sans-serif;
+    color: rgb(202, 199, 199);
+}
+footer .lang{
+    margin: 20px 0px;
+}
+footer .lang button{
+       height: 35px;
+       width: auto;
+       padding-left: 20px;
+       padding-right: 20px;
+       border-radius: 5px;
+       color: white;
+       border: 1px solid white;
+       font-weight: 525;
+       font-size: medium;
+       background-color: black;
 }
